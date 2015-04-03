@@ -1,0 +1,25 @@
+set hlsearch
+set showmode
+set ignorecase smartcase
+set history=1000
+set number 
+nnoremap ,/ :nohlsearch<cr>
+
+nnoremap ,rr :action RunClass<cr>
+nnoremap ,d :action DebugClass<cr>
+nnoremap ,gt :action GotoTest<cr>
+nnoremap ,, :action VimFilePrevious<cr>
+nnoremap ,e :action GotoFile<cr>
+nnoremap ,c :action GotoClass<cr>
+nnoremap ,nc :action NewClass<cr>
+nnoremap ,nf :action NewFile<cr>
+nnoremap ,u :action FindUsages<cr>
+nnoremap ,gg :action GenerateGetterAndSetter<cr>
+nnoremap ,= :action GenerateEquals<cr>
+nnoremap ,j :action QuickJavaDoc<cr>
+
+nnoremap / :action Find<cr>
+nnoremap n :action FindNext<cr>
+nnoremap N :action FindPrevious<cr>
+
+
