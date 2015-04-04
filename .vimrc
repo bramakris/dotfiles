@@ -6,6 +6,7 @@ set nobackup
 set noswapfile
 set incsearch
 set hlsearch
+set hidden
 set number
 syntax on
 set background=dark
