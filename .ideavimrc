@@ -17,6 +17,7 @@ nnoremap ,u :action FindUsages<cr>
 nnoremap ,gg :action GenerateGetterAndSetter<cr>
 nnoremap ,= :action GenerateEquals<cr>
 nnoremap ,j :action QuickJavaDoc<cr>
+nnoremap ,d :action CloseEditor<cr>
 
 nnoremap / :action Find<cr>
 nnoremap n :action FindNext<cr>
