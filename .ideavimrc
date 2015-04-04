@@ -7,15 +7,15 @@ nnoremap ,/ :nohlsearch<cr>
 
 nnoremap ,rr :action RunClass<cr>
 nnoremap ,d :action DebugClass<cr>
-nnoremap ,gt :action GotoTest<cr>
+nnoremap ,t :action GotoTest<cr>
 nnoremap ,, :action VimFilePrevious<cr>
 nnoremap ,e :action GotoFile<cr>
 nnoremap ,c :action GotoClass<cr>
 nnoremap ,nc :action NewClass<cr>
 nnoremap ,nf :action NewFile<cr>
 nnoremap ,u :action FindUsages<cr>
-nnoremap ,gg :action GenerateGetterAndSetter<cr>
-nnoremap ,= :action GenerateEquals<cr>
+nnoremap ,G :action GenerateGetterAndSetter<cr>
+nnoremap ,g :action Generate<cr>
 nnoremap ,j :action QuickJavaDoc<cr>
 nnoremap ,d :action CloseEditor<cr>
 
