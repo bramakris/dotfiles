@@ -5,7 +5,7 @@ set history=1000
 set number 
 nnoremap ,/ :nohlsearch<cr>
 
-nnoremap ,rr :action RunClass<cr>
+nnoremap ,r :action Refactorings.QuickListPopupAction<cr>
 nnoremap ,d :action DebugClass<cr>
 nnoremap ,t :action GotoTest<cr>
 nnoremap ,, :action VimFilePrevious<cr>
